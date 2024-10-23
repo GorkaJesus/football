@@ -1,0 +1,134 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
+
+.icons{
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+}
+.icons a{
+    font-size: 30px;
+
+}
+.facebook{
+    color: blue;
+}
+.whatsapp{
+    color: green;
+
+}
+instagram{
+    color: pink;
+}
+.icons a:hover {
+    transform: scale(1.2);
+
+}
+
+.background{
+background-color: #97cbdc;
+
+}
+.flex-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /* horizontal */
+    flex-wrap: wrap;
+    /* wrap to next line */
+    gap: 15px;
+    /* space between elements */
+    justify-content: center;
+    /* center */
+    padding: 20px;
+    /* padding for better look */
+    background-color: #97cbdc;
+    /* light background */
+}
+
+.element {
+    background-color: #018abd;
+    /* background color */
+    padding: 20px;
+    /* internal space */
+    text-align: center;
+    /* center text */
+    border-radius: 5px;
+    /* rounded borders */
+    flex: 1;
+    /* fill space */
+    min-width: 150px;
+    /* minimum width */
+    max-width: 200px;
+    /* maximum width */
+    margin: 10px;
+    /* external space */
+}
+
+.text {
+    width: auto;
+    /* width */
+    border: 3px solid hsl(241, 97%, 48%);
+    /* border color */
+    margin: 5px;
+    /* margin size */
+    padding: 10px;
+    /* internal space */
+    background-color:#97cbdc ;
+    /* background color */
+    border-radius: 8px;
+    /* rounded corners */
+    text-align: center;
+    /* center text */
+}
+
+.textpicture {
+    display: block;
+    /* block image */
+    max-width: 100%;
+    /* max width */
+    height: auto;
+    /* maintain image ratio */
+    margin: 20px auto;
+    /* image margin and center */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    /* outer shadow */
+}
+
+p {
+    width: auto;
+    /* auto width */
+    border: 3px solid #333;
+    /* border color */
+    margin: 5px;
+    /* margin */
+    padding: 10px;
+    /* internal space */
+    background-color: #97cbdc;
+    /* background color */
+    border-radius: 8px;
+    /* rounded corners */
+    text-align: center;
+    /* center text */
+}
+
+p:hover {
+    border-width: 5px;
+    /* border change on hover */
+    border-color: #00ffff;
+    /* border color on hover */
+    transition: border-width 0.3s ease, border-color 0.3s ease;
+    /* transition */
+}
